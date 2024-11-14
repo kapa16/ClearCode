@@ -87,12 +87,12 @@
         </mxCell>
         <mxCell id="byzXYcXOz94wg6up4ohZ-27" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="135" y="335.0000000000002" as="sourcePoint" />
-            <mxPoint x="1035" y="335.0000000000002" as="targetPoint" />
+            <mxPoint x="135" y="307.0000000000002" as="sourcePoint" />
+            <mxPoint x="1035" y="307.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="byzXYcXOz94wg6up4ohZ-28" value="Список рейсов(Дата, Направление)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="370" y="308" width="220" height="30" as="geometry" />
+        <mxCell id="byzXYcXOz94wg6up4ohZ-28" value="ПрямыеРейсы(Дата, ГородВылета, ГородПрилета)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="280" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="byzXYcXOz94wg6up4ohZ-29" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" target="byzXYcXOz94wg6up4ohZ-5">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -140,6 +140,15 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="635" y="557" as="sourcePoint" />
             <mxPoint x="845" y="557" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-62" value="ОбратныеРейсы(Дата, ГородВылета, ГородПрилета)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-63" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="135" y="347.0000000000002" as="sourcePoint" />
+            <mxPoint x="1035" y="347.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

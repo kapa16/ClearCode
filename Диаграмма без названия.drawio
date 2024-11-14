@@ -1,9 +1,42 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 OPR/95.0.0.0" version="24.8.6">
   <diagram name="Страница — 1" id="ZNCVUd0mU2nUiBDq-4Yq">
-    <mxGraphModel>
+    <mxGraphModel dx="1394" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="byzXYcXOz94wg6up4ohZ-3" value=":Система" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="byzXYcXOz94wg6up4ohZ-3">
+          <mxGeometry x="45" y="60" width="10" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-4" value="Каталог:КаталогМаршрутов" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="329" y="98" width="170" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="byzXYcXOz94wg6up4ohZ-4">
+          <mxGeometry x="80" y="107" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="135" y="120" as="sourcePoint" />
+            <mxPoint x="270" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-8" value="Создать" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="98" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="140" y="206" as="sourcePoint" />
+            <mxPoint x="413.5" y="206" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-11" value="СписокМаршрутов = СобратьМаршруты(&lt;div&gt;ДатаВылета, ДатаПрилета,&amp;nbsp;&lt;/div&gt;&lt;div&gt;ГородВылета, ГородПрилета)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="147" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-12" value=":СборщикМаршрутов" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="560" y="40" width="140" height="300" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

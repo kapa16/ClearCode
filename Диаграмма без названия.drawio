@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 OPR/95.0.0.0" version="24.8.6">
   <diagram name="Страница — 1" id="ZNCVUd0mU2nUiBDq-4Yq">
-    <mxGraphModel dx="1394" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1989" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,26 +16,100 @@
         <mxCell id="byzXYcXOz94wg6up4ohZ-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="byzXYcXOz94wg6up4ohZ-4">
           <mxGeometry x="80" y="107" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="byzXYcXOz94wg6up4ohZ-7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="byzXYcXOz94wg6up4ohZ-7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="byzXYcXOz94wg6up4ohZ-5">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="135" y="120" as="sourcePoint" />
-            <mxPoint x="270" y="120" as="targetPoint" />
+            <mxPoint x="143" y="120" as="sourcePoint" />
+            <mxPoint x="328" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="byzXYcXOz94wg6up4ohZ-8" value="Создать" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="160" y="98" width="70" height="30" as="geometry" />
+          <mxGeometry x="198" y="98" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="byzXYcXOz94wg6up4ohZ-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="byzXYcXOz94wg6up4ohZ-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="byzXYcXOz94wg6up4ohZ-5">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="140" y="206" as="sourcePoint" />
             <mxPoint x="413.5" y="206" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="byzXYcXOz94wg6up4ohZ-11" value="СписокМаршрутов = СобратьМаршруты(&lt;div&gt;ДатаВылета, ДатаПрилета,&amp;nbsp;&lt;/div&gt;&lt;div&gt;ГородВылета, ГородПрилета)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="byzXYcXOz94wg6up4ohZ-11" value="СписокМаршрутов = СобратьМаршруты(&#xa;ДатаВылета, ДатаПрилета, &#xa;ГородВылета, ГородПрилета)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="140" y="147" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="byzXYcXOz94wg6up4ohZ-12" value=":СборщикМаршрутов" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="560" y="40" width="140" height="300" as="geometry" />
+          <mxGeometry x="560" y="40" width="140" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="byzXYcXOz94wg6up4ohZ-12">
+          <mxGeometry x="65" y="190" width="10" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-14" value=":КаталогРейсов" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="990" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-15" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" target="byzXYcXOz94wg6up4ohZ-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="420" y="230" as="sourcePoint" />
+            <mxPoint x="580" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-20" value="Маршруты = МаршрутПоОтбору(&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251); font-size: 12px;&quot;&gt;ДатаВылета, ДатаПрилета,&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251); font-size: 12px;&quot;&gt;ГородВылета, ГородПрилета&lt;/span&gt;)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="byzXYcXOz94wg6up4ohZ-15">
+          <mxGeometry x="-0.6976" y="1" relative="1" as="geometry">
+            <mxPoint x="66" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-17" value="Маршрут:Маршрут" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="790" y="405" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="byzXYcXOz94wg6up4ohZ-17">
+          <mxGeometry x="55" y="60" width="10" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-18" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="635" y="422.4999999999999" as="sourcePoint" />
+            <mxPoint x="790" y="422.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-19" value="Создать" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="645" y="400" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1035" y="310" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-27" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="135" y="335.0000000000002" as="sourcePoint" />
+            <mxPoint x="1035" y="335.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-28" value="Список рейсов(Дата, Направление)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="308" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-29" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" target="byzXYcXOz94wg6up4ohZ-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-440" y="130" as="sourcePoint" />
+            <mxPoint x="120" y="128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-31" value="ВернутьМаршрутыПоОтбору(ДатаВылета, ДатаПрилета,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;ГородВылета, ГородПрилета&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-429" y="103" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-32" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;autosize=1;resizable=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="135" y="391.0000000000002" as="sourcePoint" />
+            <mxPoint x="625" y="391.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-33" value="МаршрутыИзРейсов(Рейсы)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="180" y="368" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-38" value="Рейс:Рейс" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1210" y="338" width="90" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-40" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;autosize=1;resizable=0;" edge="1" parent="1" source="byzXYcXOz94wg6up4ohZ-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1050" y="360" as="sourcePoint" />
+            <mxPoint x="1210" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="byzXYcXOz94wg6up4ohZ-41" value="Создать" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1079" y="338" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

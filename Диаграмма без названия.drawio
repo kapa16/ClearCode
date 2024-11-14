@@ -127,8 +127,8 @@
             <mxPoint x="830" y="541" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="byzXYcXOz94wg6up4ohZ-43" value="Добавить(РейсПраямой)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="648" y="489" width="160" height="30" as="geometry" />
+        <mxCell id="byzXYcXOz94wg6up4ohZ-43" value="Добавить(РейсПрямой)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="653" y="489" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="byzXYcXOz94wg6up4ohZ-44" value="Добавить(РейсОбратный)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="643" y="533" width="170" height="30" as="geometry" />

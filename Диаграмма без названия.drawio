@@ -76,8 +76,8 @@
             <mxPoint x="806" y="461" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="byzXYcXOz94wg6up4ohZ-19" value="Маршрут = Создать" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="648" y="436" width="130" height="30" as="geometry" />
+        <mxCell id="byzXYcXOz94wg6up4ohZ-19" value="Маршрут = Создать()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="643" y="436" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="byzXYcXOz94wg6up4ohZ-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="1286" y="305" width="10" height="280" as="geometry" />

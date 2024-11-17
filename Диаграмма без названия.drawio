@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 YaBrowser/24.10.0.0 Safari/537.36" version="24.8.4">
   <diagram name="Страница — 1" id="ZNCVUd0mU2nUiBDq-4Yq">
-    <mxGraphModel dx="1646" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1816" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,15 +67,6 @@
         </mxCell>
         <mxCell id="byzXYcXOz94wg6up4ohZ-28" value="ПрямыеРейсы = ВыбратьРейсы(ДатаВылета,&amp;nbsp;&lt;div&gt;ГородВылета, ГородПрилета)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="418" y="230" width="280" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="byzXYcXOz94wg6up4ohZ-29" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" parent="1" target="byzXYcXOz94wg6up4ohZ-5" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-440" y="130" as="sourcePoint" />
-            <mxPoint x="120" y="128" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="byzXYcXOz94wg6up4ohZ-31" value="ВернутьМаршрутыПоОтбору(ДатаВылета, ДатаПрилета,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;ГородВылета, ГородПрилета&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-429" y="103" width="510" height="30" as="geometry" />
         </mxCell>
         <mxCell id="byzXYcXOz94wg6up4ohZ-32" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;autosize=1;resizable=0;" parent="1" edge="1" target="byzXYcXOz94wg6up4ohZ-16">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -147,6 +138,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1210" y="610" as="sourcePoint" />
             <mxPoint x="1130" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zPFFwaHdpX6cjTQtUKsH-6" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;ВернутьМаршрутыПоОтбору(ДатаВылета, ДатаПрилета,&amp;nbsp;&lt;/span&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ГородВылета, ГородПрилета&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="byzXYcXOz94wg6up4ohZ-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-350" y="134" as="sourcePoint" />
+            <mxPoint x="50" y="134.66" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
